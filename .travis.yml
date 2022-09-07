@@ -1,0 +1,9 @@
+dist: bionic
+language: node_js
+node_js:
+  - "lts/*"
+cache:
+npm: false
+
+before_script:
+  - npm run validate
